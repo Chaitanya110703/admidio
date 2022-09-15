@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1776900278188e5c22a82ac417bbcb3d",
+    "content-hash": "8d72517d3471e594862d3a51655ca1a0",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
@@ -120,60 +120,6 @@
                 }
             ],
             "time": "2021-08-15T20:50:18+00:00"
-        },
-        {
-            "name": "dapphp/securimage",
-            "version": "3.6.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dapphp/securimage.git",
-                "reference": "5fc5953c4ffba1eb214cc83100672f238c184ca4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dapphp/securimage/zipball/5fc5953c4ffba1eb214cc83100672f238c184ca4",
-                "reference": "5fc5953c4ffba1eb214cc83100672f238c184ca4",
-                "shasum": ""
-            },
-            "require": {
-                "ext-gd": "*",
-                "php": ">=5.4"
-            },
-            "suggest": {
-                "ext-pdo": "For database storage support",
-                "ext-pdo_mysql": "For MySQL database support",
-                "ext-pdo_sqlite": "For SQLite3 database support"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "securimage.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Drew Phillips",
-                    "email": "drew@drew-phillips.com"
-                }
-            ],
-            "description": "PHP CAPTCHA Library",
-            "homepage": "https://www.phpcaptcha.org",
-            "keywords": [
-                "Forms",
-                "anti-spam",
-                "captcha",
-                "security"
-            ],
-            "support": {
-                "issues": "https://github.com/dapphp/securimage/issues",
-                "source": "https://github.com/dapphp/securimage/tree/3.6.8"
-            },
-            "abandoned": true,
-            "time": "2020-05-30T09:43:22+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -637,16 +583,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.6.3",
+            "version": "v6.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "9400f305a898f194caff5521f64e5dfa926626f3"
+                "reference": "a94fdebaea6bd17f51be0c2373ab80d3d681269b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/9400f305a898f194caff5521f64e5dfa926626f3",
-                "reference": "9400f305a898f194caff5521f64e5dfa926626f3",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a94fdebaea6bd17f51be0c2373ab80d3d681269b",
+                "reference": "a94fdebaea6bd17f51be0c2373ab80d3d681269b",
                 "shasum": ""
             },
             "require": {
@@ -703,7 +649,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.3"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.4"
             },
             "funding": [
                 {
@@ -711,7 +657,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-20T09:21:02+00:00"
+            "time": "2022-08-22T09:22:00+00:00"
         },
         {
             "name": "phpoffice/phpspreadsheet",
@@ -1255,16 +1201,16 @@
         },
         {
             "name": "smarty/smarty",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "97aeb14c6fc2fb733938809926e2f9d6c581a70d"
+                "reference": "ffa2b81a8e354a49fd8a2f24742dc9dc399e8007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/97aeb14c6fc2fb733938809926e2f9d6c581a70d",
-                "reference": "97aeb14c6fc2fb733938809926e2f9d6c581a70d",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/ffa2b81a8e354a49fd8a2f24742dc9dc399e8007",
+                "reference": "ffa2b81a8e354a49fd8a2f24742dc9dc399e8007",
                 "shasum": ""
             },
             "require": {
@@ -1315,9 +1261,9 @@
             "support": {
                 "forum": "https://github.com/smarty-php/smarty/discussions",
                 "issues": "https://github.com/smarty-php/smarty/issues",
-                "source": "https://github.com/smarty-php/smarty/tree/v4.2.0"
+                "source": "https://github.com/smarty-php/smarty/tree/v4.2.1"
             },
-            "time": "2022-08-01T21:57:38+00:00"
+            "time": "2022-09-14T10:59:01+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
