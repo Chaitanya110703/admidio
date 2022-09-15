@@ -39,8 +39,17 @@
         "files": ["adm_program/libs/client/jquery-file-upload/server/php/UploadHandler.php"]
     },
     "archive": {
-        "exclude": [ "!vendor/*", "vendor/tecnickcom/tcpdf/examples",
-            "vendor/twbs/bootstrap", "!vendor/twbs/bootstrap/dist",
-            "vendor/fortawesome/font-awesome", "!vendor/fortawesome/font-awesome/css", "!vendor/fortawesome/font-awesome/webfonts"]
+        "exclude": [ "!vendor/*",
+            "vendor/tecnickcom/tcpdf/examples",
+            "vendor/tecnickcom/tcpdf/fonts",
+            "!vendor/tecnickcom/tcpdf/fonts/courier*.*",
+            "!vendor/tecnickcom/tcpdf/fonts/helvetica*.*",
+            "!vendor/tecnickcom/tcpdf/fonts/pdfa*.*",
+            "!vendor/tecnickcom/tcpdf/fonts/times*.*",
+            "vendor/twbs/bootstrap",
+            "!vendor/twbs/bootstrap/dist",
+            "vendor/fortawesome/font-awesome",
+            "!vendor/fortawesome/font-awesome/css",
+            "!vendor/fortawesome/font-awesome/webfonts"]
     }
 }
