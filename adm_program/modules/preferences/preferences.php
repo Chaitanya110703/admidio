@@ -775,7 +775,7 @@ $formCaptcha->addInput(
     $formValues['captcha_perturbation'],
     array('type' => 'string', 'helpTextIdInline' => 'ORG_CAPTCHA_DISTORTION_DESC', 'class' => 'form-control-small')
 );
-$backgrounds = array_keys(FileSystemUtils::getDirectoryContent(ADMIDIO_PATH . FOLDER_LIBS_SERVER . '/dapphp/securimage/backgrounds/', false, false, array(FileSystemUtils::CONTENT_TYPE_FILE)));
+$backgrounds = array_keys(FileSystemUtils::getDirectoryContent(ADMIDIO_PATH . FOLDER_LIBS . '/securimage/backgrounds/', false, false, array(FileSystemUtils::CONTENT_TYPE_FILE)));
 asort($backgrounds);
 $formCaptcha->addSelectBox(
     'captcha_background_image',

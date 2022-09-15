@@ -75,7 +75,6 @@ const FOLDER_DATA = '/adm_my_files';
 const FOLDER_SYSTEM = '/adm_program/system';
 const FOLDER_CLASSES = '/adm_program/system/classes';
 const FOLDER_INSTALLATION = '/adm_program/installation';
-const FOLDER_LIBS_SERVER = '/adm_program/libs/server'; // PHP libs
 const FOLDER_LIBS_CLIENT = '/adm_program/libs/client'; // JS/CSS libs
 const FOLDER_LIBS = '/adm_program/libs';
 const FOLDER_VENDOR = '/vendor'; // JS/CSS libs
